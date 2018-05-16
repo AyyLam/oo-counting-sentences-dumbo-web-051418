@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     words = self.split(' ')
-    total_words = words.inject do |count, word| count + 1} if self.sentence? | self.question? | self.exclamation?
+    total_words = words.inject do |count, word| self.sentence? | self.question? | self.exclamation? count + 1 
   end
 end
