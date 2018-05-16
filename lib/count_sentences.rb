@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     words = self.split(' ')
-    total_words = words.inject {|count, word|
+    total_words = words.inject {|count, word| count += 1} if sentence? | question? | exclamation?
   end
 end
