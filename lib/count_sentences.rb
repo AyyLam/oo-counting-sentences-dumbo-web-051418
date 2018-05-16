@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     words = self.split(' ')
-    total_words = words.inject 
+    total_words = words.inject {|
   end
 end
