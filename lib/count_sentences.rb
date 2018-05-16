@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    return self.splitt(' ')
+    return self.split(' ')
   end
 end
