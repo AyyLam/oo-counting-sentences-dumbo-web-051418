@@ -19,7 +19,7 @@ class String
     puts words
     count =0
     words.each do |word| 
-      if self.sentence? | self.question? | self.exclamation? 
+      if word.sentence? | word.question? | word.exclamation? 
         count += 1 
       end 
     end
